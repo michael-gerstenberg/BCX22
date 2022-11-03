@@ -1,0 +1,18 @@
+[
+  	{$search: {
+  		search: {
+  			path: 'fullplot',
+  			query: 'werewolves and vampires'
+  		}
+  	}},
+  	{$project: {
+  		_id: 0,
+  		title: 1,
+  		year: 1,
+  		fullplot: 1,
+  		score: {
+  			$meta: 'searchScore'
+  		}
+  	}},
+  	{$limit: 15}
+  ]

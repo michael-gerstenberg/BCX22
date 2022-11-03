@@ -1,0 +1,22 @@
+[
+  	{$search: {
+  		term: {
+  			query: 'wherewolves',
+  			path: 'fullplot',
+  			fuzzy: {
+  				maxEdits: 2,
+  				prefixLength: 0
+  			}
+  		}
+  	}},
+  	{$project: {
+  		_id: 0,
+  		title: 1,
+  		year: 1,
+  		fullplot: 1,
+  		score: {
+  			$meta: 'searchScore'
+  		}
+  	}},
+  	{$limit: 15}
+  ]
