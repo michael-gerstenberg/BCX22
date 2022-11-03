@@ -1,6 +1,6 @@
 # Get started with MongoDB Atlas
 
-__Here you get an overview how to use and integrate a MongoDB Atlas Cluster incl. Services like traversing Graphs, __
+__Here you get an overview how to use and integrate a MongoDB Atlas Cluster incl. all Services into your architecture and how to download the Bosch Building Technology Dataset.__
 
 __In case you have questions, don't hesitate to contact us via__: 
 * [Michael Gerstenberg](mailto:michael.gerstenberg@mongodb.com)
@@ -17,9 +17,9 @@ Below is a list of selected topics. MongoDB Atlas is a Developer Platform which 
 
 __Initial Setup__
 
-* How to create a MongoDB Atlas Cluster
-* Overview of MongoDB Atlas Services
-* How to download sample Bosch Building Technology data set
+* How to create a MongoDB Atlas Cluster (see down) (mach niklas)
+* Overview of MongoDB Atlas Services (see down) (mach ich in dem pitch morgen fr)
+* How to download sample Bosch Building Technology data set (see down)
 * How to manage MongoDB Atlas Clusters: [API Examples](f-mongo-atlas-api-examples) | [Terraform Examples](f-mongo-atlas-terraform) | [Terraform Docs](https://registry.terraform.io/providers/mongodb/mongodbatlas/latest/docs)
 
 __Architecture__
@@ -47,19 +47,20 @@ __Real Time/Change Data Capture__
 
 __Interfaces/APIs__
 
-* How to create HTTP(S) Endpoints 
+* How to connect with Spark: [Documentation](https://www.mongodb.com/docs/spark-connector/current/)
+* How to create HTTP(S) Endpoints [Documentation](https://www.mongodb.com/docs/atlas/app-services/data-api/custom-endpoints/) 
 * How to deploy a GraphQL API [Documentation & Examples](https://www.mongodb.com/docs/atlas/app-services/graphql/)
 * How to use MongoDB Atlas Data API (HTTP requests): [Examples](f-mongo-atlas-data-api-examples) | [Atlas Docs](https://www.mongodb.com/docs/atlas/api/data-api/)
 
 __MongoDB (Atlas) Features__
 
 * How to implement Fulltext-Search capabilities like Fuzzy Search, Highlighting, Autocomplete ...: [Fulltext-Search Example](f-mongo-atlas-fulltext-search) | [Autocomplete Example](f-mongo-atlas-auto-complete)
-* How to create Visualizations/Charts and embedd them
-* How to traverse Graphs with MongoDB [Example](https://github.com/pkdone/GraphPersonsAndPlaces)
+* How to create Visualizations/Charts and embedd them [Documentation incl. Examples](https://www.mongodb.com/docs/charts/)
+* How to traverse Graphs with MongoDB: [Example](https://github.com/pkdone/GraphPersonsAndPlaces)
 * How to store Files/Binary Data in MongoDB: [Example Application](f-mongo-store-binary-example-app/)
-* How to handle Time Series Data
+* How to handle Time Series Data: [Docs](https://www.mongodb.com/docs/manual/core/timeseries-collections/) | [Examples]
 * How to use things you know from relational databases: [Example for Joins](https://www.stackchief.com/tutorials/%24lookup%20Examples%20%7C%20MongoDB) | [Atlas Docs incl. Example](https://www.mongodb.com/docs/manual/reference/method/Session.startTransaction/)
-* How to create a mobile application including mobile device sync
+* How to create a mobile application including mobile device sync: [Docs incl. Example with different SDKs](https://www.mongodb.com/docs/realm/)
 
 __Diverse__
 
@@ -68,6 +69,14 @@ __Diverse__
 ## Create a MongoDB Atlas Cluster
 
 Register yourself at MongoDB ... and then type in your Code ...
+
+@Niklas hier
+
+Code: MKT-BCX22-1122
+
+## Download the Bosch Bulding Technology Data Set
+
+
 
 
 ---
