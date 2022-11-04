@@ -76,9 +76,9 @@ __Diverse__
 
 * Register yourself for an Atlas account [here](https://www.mongodb.com/cloud/atlas/register) or login to your existing Atlas account
 * Head to the billing page in Atlas and get your Atlas credits by applying the code MKT-BCX22-1122 on the lower section of the billing overview: [documentation](https://www.mongodb.com/docs/atlas/billing/subscriptions/)
-* Create your first MongoDB cluster: [documentation](https://www.mongodb.com/docs/atlas/tutorial/create-new-cluster/)
-* Whitelist your connection IP address and add your first database user: [documentation](https://www.mongodb.com/docs/atlas/security/add-ip-address-to-list/)
-* Connect to your cluster: [documentation](https://www.mongodb.com/docs/atlas/tutorial/connect-to-your-cluster/) 
+* Create your first MongoDB cluster: [Documentation](https://www.mongodb.com/docs/atlas/tutorial/create-new-cluster/)
+* Whitelist your connection IP address and add your first database user: [Documentation](https://www.mongodb.com/docs/atlas/security/add-ip-address-to-list/)
+* Connect to your cluster: [Documentation](https://www.mongodb.com/docs/atlas/tutorial/connect-to-your-cluster/) 
 
 
 ## Download the Bosch Bulding Technology Data Set
