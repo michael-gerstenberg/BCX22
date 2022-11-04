@@ -21,7 +21,7 @@ Everything you can see here in the green box is provided by MongoDB Atlas.
 
 __Initial Setup__
 
-* How to create a MongoDB Atlas Cluster (see down) (mach niklas)
+* How to create a MongoDB Atlas Cluster (see down)
 * Overview of MongoDB Atlas Services (see down) (mach ich in dem pitch morgen fr)
 * How to download sample Bosch Building Technology data set (see down)
 * How to manage MongoDB Atlas Clusters: [API Examples](f-mongo-atlas-api-examples) | [Terraform Examples](f-mongo-atlas-terraform) | [Terraform Docs](https://registry.terraform.io/providers/mongodb/mongodbatlas/latest/docs)
@@ -74,11 +74,10 @@ __Diverse__
 
 ## Create a MongoDB Atlas Cluster
 
-Register yourself at MongoDB ... and then type in your Code ...
+* Register yourself for an Atlas account [here](https://www.mongodb.com/cloud/atlas/register) or login to your existing Atlas account
+* Head to the billing page in Atlas and get your Atlas credits by applying the code MKT-BCX22-1122 on the lower section of the billing overview ([see the docs here](https://www.mongodb.com/docs/atlas/billing/subscriptions/)
+* Create your first MongoDB cluster [see the documentation here](https://www.mongodb.com/docs/atlas/tutorial/create-new-cluster/) 
 
-@Niklas hier
-
-Code: MKT-BCX22-1122
 
 ## Download the Bosch Bulding Technology Data Set
 
