@@ -22,6 +22,8 @@ Everything you can see here in the green box is provided by MongoDB Atlas.
 __Initial Setup__
 
 * [How to create a MongoDB Atlas Cluster](#create-a-mongodb-atlas-cluster)
+* [Download MongoDB GUI: Compass](https://www.mongodb.com/products/compass)
+* [Download the MongoDB Atlas CLI](https://www.mongodb.com/tools/atlas-cli)
 * [Overview of MongoDB Atlas Services](#overview-of-bcx22-relevant-mongodb-atlas-services-there-are-more)
 * [How to download sample Bosch Building Technology data set](#download-the-bosch-bulding-technology-data-set)
 * How to manage MongoDB Atlas Clusters: [Terraform Examples](f-mongo-atlas-terraform) | [Terraform Docs](https://registry.terraform.io/providers/mongodb/mongodbatlas/latest/docs) | [API Examples](https://github.com/mdg-2018/atlas-api-workshop)
@@ -57,6 +59,7 @@ __Interfaces/APIs__
 * How to create HTTP(S) Endpoints: [Documentation](https://www.mongodb.com/docs/atlas/app-services/data-api/custom-endpoints/) 
 * How to deploy a GraphQL API: [Documentation & Examples](https://www.mongodb.com/docs/atlas/app-services/graphql/)
 * How to use MongoDB Atlas Data API (HTTP requests): [Examples](f-mongo-atlas-data-api-examples) | [Atlas Docs](https://www.mongodb.com/docs/atlas/api/data-api/)
+* [Mongodb and Node](https://www.mongodb.com/docs/drivers/node/current/quick-start/)
 
 __MongoDB (Atlas) Features__
 
@@ -70,6 +73,7 @@ __MongoDB (Atlas) Features__
 
 __Diverse__
 
+* [Quickstart Ideas](https://www.mongodb.com/blog/channel/quickstart)
 * [More topics... During BCX22 things which are popping up will be added!](https://github.com/michael-gerstenberg/BCX22)
 
 ## Create a MongoDB Atlas Cluster
