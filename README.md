@@ -79,7 +79,7 @@ __Diverse__
 ## Create a MongoDB Atlas Cluster
 
 * Register yourself for an Atlas account [here](https://www.mongodb.com/cloud/atlas/register) or login to your existing Atlas account
-* Head to the billing page in Atlas and get your Atlas credits by applying the code __MKT-BCX22-1122__ ($150 credits) on the lower section of the billing overview: [Documentation](https://www.mongodb.com/docs/atlas/billing/subscriptions/)
+* Head to the billing page in Atlas and get your Atlas credits by applying the code __MKT-BCX22-1122__ ($100 credits) on the lower section of the billing overview: [Documentation](https://www.mongodb.com/docs/atlas/billing/subscriptions/)
 * Create your first MongoDB cluster. We recommend a __M10__ cluster which is powerful enough and will save your credits: [Documentation](https://www.mongodb.com/docs/atlas/tutorial/create-new-cluster/)
 * Whitelist your connection IP address and add your first database user. (You can also create a VNET/VPC peering or a private endpoint connection.): [Documentation](https://www.mongodb.com/docs/atlas/security/add-ip-address-to-list/)
 * Connect to your cluster: [Documentation](https://www.mongodb.com/docs/atlas/tutorial/connect-to-your-cluster/) 
