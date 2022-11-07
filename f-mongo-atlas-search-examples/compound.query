@@ -1,0 +1,17 @@
+pipeline = [{'$search': {
+    "compound": {
+        "must": [{
+            "text": {
+                "query": 'Ethan',
+                "path": 'firstName'
+            }
+        }],
+        "mustNot": [{
+            "text": {
+                "query": 'Henry',
+                "path": 'lastName'
+            }
+        }]
+    }
+}
+}]

@@ -1,0 +1,18 @@
+// index setup
+
+{
+    "mappings": {
+      "dynamic": true,
+      "fields": {
+        "title": [
+          {
+            "foldDiacritics": false,
+            "maxGrams": 15,
+            "minGrams": 2,
+            "tokenization": "edgeGram",
+            "type": "autocomplete"
+          }
+        ]
+      }
+    }
+  }

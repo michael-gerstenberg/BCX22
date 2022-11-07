@@ -1,0 +1,16 @@
+{
+  "mappings": {
+    "dynamic": false,
+    "fields": {
+      "directors": {
+        "type": "stringFacet"
+      },
+      "year": {
+        "type": "number"
+      },
+      "released": {
+        "type": "date"
+      }
+    }
+  }
+}

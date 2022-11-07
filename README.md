@@ -21,10 +21,10 @@ Everything you can see here in the green box is provided by MongoDB Atlas.
 
 __Initial Setup__
 
-* How to create a MongoDB Atlas Cluster (see down) (mach niklas)
-* Overview of MongoDB Atlas Services (see down) (mach ich in dem pitch morgen fr)
-* How to download sample Bosch Building Technology data set (see down)
-* How to manage MongoDB Atlas Clusters: [API Examples](f-mongo-atlas-api-examples) | [Terraform Examples](f-mongo-atlas-terraform) | [Terraform Docs](https://registry.terraform.io/providers/mongodb/mongodbatlas/latest/docs)
+* [How to create a MongoDB Atlas Cluster](#create-a-mongodb-atlas-cluster)
+* [Overview of MongoDB Atlas Services](#overview-of-bcx22-relevant-mongodb-atlas-services-there-are-more)
+* [How to download sample Bosch Building Technology data set](#download-the-bosch-bulding-technology-data-set)
+* How to manage MongoDB Atlas Clusters: [Terraform Examples](f-mongo-atlas-terraform) | [Terraform Docs](https://registry.terraform.io/providers/mongodb/mongodbatlas/latest/docs) | [API Examples](https://github.com/mdg-2018/atlas-api-workshop)
 
 __Architecture__
 
@@ -70,15 +70,15 @@ __MongoDB (Atlas) Features__
 
 __Diverse__
 
-* [More topics](https://github.com/michael-gerstenberg/BCX22)
+* [More topics... During BCX22 things which are popping up will be added!](https://github.com/michael-gerstenberg/BCX22)
 
 ## Create a MongoDB Atlas Cluster
 
-Register yourself at MongoDB ... and then type in your Code ...
-
-@Niklas hier
-
-Code: MKT-BCX22-1122
+* Register yourself for an Atlas account [here](https://www.mongodb.com/cloud/atlas/register) or login to your existing Atlas account
+* Head to the billing page in Atlas and get your Atlas credits by applying the code __MKT-BCX22-1122__ ($150 credits) on the lower section of the billing overview: [Documentation](https://www.mongodb.com/docs/atlas/billing/subscriptions/)
+* Create your first MongoDB cluster. We recommend a __M10__ cluster which is powerful enough and will save your credits: [Documentation](https://www.mongodb.com/docs/atlas/tutorial/create-new-cluster/)
+* Whitelist your connection IP address and add your first database user. (You can also create a VNET/VPC peering or a private endpoint connection.): [Documentation](https://www.mongodb.com/docs/atlas/security/add-ip-address-to-list/)
+* Connect to your cluster: [Documentation](https://www.mongodb.com/docs/atlas/tutorial/connect-to-your-cluster/) 
 
 ## Download the Bosch Bulding Technology Data Set
 
@@ -106,8 +106,6 @@ mongorestore --host bcx22-shard-00-01.da1ep.mongodb.net:27017  --authenticationD
 
 After that the dataset is restored onto your cluster.
 
+## Overview of BCX22 relevant MongoDB Atlas Services (there are more)
 
-Todos:
-- api examples doent work
-- ts examples
-
+![MongoDB Atlas Overview](images/overview.png)

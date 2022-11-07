@@ -1,0 +1,10 @@
+pipeline = [
+    {
+        '$search': {
+            'autocomplete': {
+                'query': query,
+                'path': path
+            }
+        }
+    }
+]

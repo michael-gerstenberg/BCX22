@@ -1,0 +1,16 @@
+pipeline = [
+    {
+        '$search': {
+            'text': {
+                'query': "fight",
+                'path': "title"
+            },
+            # text highlighting
+            'highlight': {"path": "title"}
+        }
+    }, {
+        '$project': {
+            'highlights': {"$meta": "searchHighlights"}
+        }
+    }
+]
