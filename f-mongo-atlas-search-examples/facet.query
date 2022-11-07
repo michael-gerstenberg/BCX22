@@ -1,0 +1,28 @@
+[
+ {
+   "$searchMeta": {
+     "index":"ethan_facet",
+     "facet": {
+       "operator": {
+         "range": {
+           "path": "released",
+           "gte": ISODate("2000-01-01T00:00:00.000Z"),
+           "lte": ISODate("2015-01-31T00:00:00.000Z")
+         }
+       },
+       "facets": {
+         "directorsFacet": {
+           "type": "string",
+           "path": "directors",
+           "numBuckets" : 7
+         },
+         "yearFacet" : {
+           "type" : "number",
+           "path" : "year",
+           "boundaries" : [2000,2005,2010,2015]
+         }
+       }
+     }
+   }
+ }
+]
